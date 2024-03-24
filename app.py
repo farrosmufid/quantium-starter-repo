@@ -24,7 +24,7 @@ soul_foods_sales_df['date'] = pd.to_datetime(soul_foods_sales_df['date'])
     
 
 app.layout = html.Div( [
-    html.H3('Soul Foods Pink Morsel Sales', style = {'text-align': 'center'}),
+    html.H1('Soul Foods Pink Morsel Sales', style = {'text-align': 'center'}),
     dbc.Row(
         [
             dbc.Col(
